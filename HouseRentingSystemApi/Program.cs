@@ -2,6 +2,7 @@
 using HouseRentingSystemApi.Data;
 using HouseRentingSystemApi.Data.Entities;
 using HouseRentingSystemApi.Middleware;
+using HouseRentingSystemApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -73,8 +74,15 @@ namespace HouseRentingSystemApi
 					};
 				});
 			builder.Services.AddAuthorization();
+
+			// Register role and user services
+			builder.Services.AddScoped<IRoleService, RoleService>();
+			builder.Services.AddScoped<IUserService, UserService>();
 			//--END NEW SECTION--
 			var app = builder.Build();
+
+			// Ensure roles exist on startup
+			RolesSeeder.SeedAsync(app.Services).GetAwaiter().GetResult();
 
 			// Configure the HTTP request pipeline.
 			if (app.Environment.IsDevelopment())

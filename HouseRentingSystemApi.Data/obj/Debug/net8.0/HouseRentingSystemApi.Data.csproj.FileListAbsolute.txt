@@ -12,3 +12,4 @@ C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi.Data\obj\De
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi.Data\obj\Debug\net8.0\HouseRentingSystemApi.Data.pdb
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi.Data\obj\Debug\net8.0\HouseRentingSystemApi.Data.genruntimeconfig.cache
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi.Data\obj\Debug\net8.0\ref\HouseRentingSystemApi.Data.dll
+C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi.Data\obj\Debug\net8.0\HouseRentingSystemApi.Data.sourcelink.json

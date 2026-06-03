@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|solutionrelative:houserentingsystemapi\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|solutionrelative:houserentingsystemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi\\middleware\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|solutionrelative:houserentingsystemapi\\middleware\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|solutionrelative:houserentingsystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\configurations\\houseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\configurations\\houseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\migrations\\20260415070745_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\migrations\\20260415070745_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467A3342-3C93-4C68-A8C2-C4BC82E47AEA}|HouseRentingSystemApi\\HouseRentingSystemApi.csproj|solutionrelative:houserentingsystemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\configurations\\houseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\configurations\\houseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\houserentingsystemapi.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\houserentingsystemapi.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|c:\\users\\shopo\\downloads\\houserentingsystemapi\\houserentingsystemapi.data\\migrations\\20260415070745_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AA588B9-F3B4-4B42-A854-2AB27E561B97}|HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj|solutionrelative:houserentingsystemapi.data\\migrations\\20260415070745_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Migrations\\20260415070248_SeedAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestTimingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi\\Middleware\\RequestTimingMiddleware.cs",
+              "RelativeDocumentMoniker": "HouseRentingSystemApi\\Middleware\\RequestTimingMiddleware.cs",
+              "ToolTip": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi\\Middleware\\RequestTimingMiddleware.cs",
+              "RelativeToolTip": "HouseRentingSystemApi\\Middleware\\RequestTimingMiddleware.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T06:52:58.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -68,14 +85,14 @@
               "RelativeDocumentMoniker": "HouseRentingSystemApi\\Controllers\\HouseController.cs",
               "ToolTip": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi\\Controllers\\HouseController.cs",
               "RelativeToolTip": "HouseRentingSystemApi\\Controllers\\HouseController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwF8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T07:35:50.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi\\Controllers\\AuthController.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\Configurations\\CategoryConfiguration.cs",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\AppDbContext.cs",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HouseRentingSystemApi.Data.csproj",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\HouseRentingSystemApi.Data.csproj",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20260415070248_SeedAdded.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Migrations\\20260415070248_SeedAdded.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\Migrations\\20260415070248_SeedAdded.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "HouseConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Configurations\\HouseConfiguration.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\Configurations\\HouseConfiguration.cs",
@@ -171,19 +188,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "20260415070745_Initial.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Migrations\\20260415070745_Initial.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\Migrations\\20260415070745_Initial.cs",
               "ToolTip": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Migrations\\20260415070745_Initial.cs",
               "RelativeToolTip": "HouseRentingSystemApi.Data\\Migrations\\20260415070745_Initial.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T07:07:45.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20260415071611_seed.cs",
               "DocumentMoniker": "C:\\Users\\shopo\\Downloads\\HouseRentingSystemApi\\HouseRentingSystemApi.Data\\Migrations\\20260415071611_seed.cs",
               "RelativeDocumentMoniker": "HouseRentingSystemApi.Data\\Migrations\\20260415071611_seed.cs",

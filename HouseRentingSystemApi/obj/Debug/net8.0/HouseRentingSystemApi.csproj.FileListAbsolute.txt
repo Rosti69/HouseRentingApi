@@ -170,10 +170,11 @@ C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\n
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\HouseRen.B3E49DAD.Up2Date
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\HouseRentingSystemApi.dll
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\refint\HouseRentingSystemApi.dll
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\HouseRentingSystemApi.pdb
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\HouseRentingSystemApi.genruntimeconfig.cache
 C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\ref\HouseRentingSystemApi.dll
+C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\HouseRentingSystemApi.sourcelink.json
+C:\Users\shopo\Downloads\HouseRentingSystemApi\HouseRentingSystemApi\obj\Debug\net8.0\swae.build.ex.cache

@@ -1,6 +1,7 @@
 ﻿ using HouseRentingSystemApi.Data;
 using HouseRentingSystemApi.Data.Entities;
 using HouseRentingSystemApi.Models;
+using HouseRentingSystemApi.Models.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -21,16 +22,23 @@ namespace HouseRentingSystemApi.Controllers
 
 		[HttpGet("All")]
 		[Produces(typeof(IEnumerable<HouseDetailModel>))]
-		public async Task<IActionResult> GetAll()
+		public async Task<IActionResult> GetAll([FromQuery] CategoryViewEnum? category = null)
 		{
-			var model = await context.Houses
-				.AsNoTracking()
+			var query = context.Houses
+				.AsNoTracking();
+
+			if (category.HasValue)
+			{
+				query = query.Where(h => h.Category.Name == category.Value.ToString());
+			}
+
+			var model = await query
 				.Select(h => new HouseDetailModel()
 				{
-					
 					Title = h.Title,
 					Address = h.Address,
-					ImageUrl = h.ImageUrl
+					ImageUrl = h.ImageUrl,
+					Category = (CategoryViewEnum)Enum.Parse(typeof(CategoryViewEnum), h.Category.Name)
 				})
 				.ToListAsync();
 
@@ -50,7 +58,7 @@ namespace HouseRentingSystemApi.Controllers
 		[Produces(typeof(HouseDetailModel))]
 		public async Task<IActionResult> GetById(int id)
 		{
-			var house = await context.Houses.FirstOrDefaultAsync(h => h.Id == id);
+			var house = await context.Houses.Include(h => h.Category).FirstOrDefaultAsync(h => h.Id == id);
 			if (house == null)
 			{
 				return NotFound();
@@ -60,7 +68,8 @@ namespace HouseRentingSystemApi.Controllers
 			{
 				Title = house.Title,
 				Address = house.Address,
-				ImageUrl = house.ImageUrl
+				ImageUrl = house.ImageUrl,
+				Category = (CategoryViewEnum)Enum.Parse(typeof(CategoryViewEnum), house.Category.Name)
 			});
 		}
 

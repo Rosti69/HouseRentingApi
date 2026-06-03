@@ -106,6 +106,15 @@
         "tags": [
           "House"
         ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/CategoryViewEnum"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
