@@ -1,11 +1,8 @@
 
 using HouseRentingSystemApi.Data;
-using HouseRentingSystemApi.Data.Entities;
 using HouseRentingSystemApi.Middleware;
-using HouseRentingSystemApi.Services;
+using HouseRentingSystemApi.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -33,22 +30,8 @@ namespace HouseRentingSystemApi
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
 
-			var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+			builder.Services.AddHouseRentingData(builder.Configuration);
 
-			
-			builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
-			
-			builder.Services.AddIdentity<AppUser,IdentityRole>(opt =>
-			{
-				opt.SignIn.RequireConfirmedEmail = false;
-				opt.Password.RequireNonAlphanumeric = false;
-				opt.Password.RequiredLength = 6;
-				opt.Password.RequireLowercase = false;
-				opt.Password.RequireUppercase = false;
-
-			})
-				.AddEntityFrameworkStores<AppDbContext>()
-				.AddDefaultTokenProviders();
 			//---NEW SECTION---
 			var jwtSection = builder.Configuration.GetSection("Jwt");
 			var key = jwtSection["Key"];
@@ -75,13 +58,7 @@ namespace HouseRentingSystemApi
 				});
 			builder.Services.AddAuthorization();
 
-			// Register role and user services
-			builder.Services.AddScoped<IRoleService, RoleService>();
-			builder.Services.AddScoped<IUserService, UserService>();
-			//--END NEW SECTION--
-			var app = builder.Build();
-
-			// Ensure roles exist on startup
+            var app = builder.Build();
 			RolesSeeder.SeedAsync(app.Services).GetAwaiter().GetResult();
 
 			// Configure the HTTP request pipeline.
